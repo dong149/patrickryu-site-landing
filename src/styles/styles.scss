@@ -1,0 +1,76 @@
+@import "./font.scss";
+@import "./components/divider.scss";
+@import "./components/videos.scss";
+@import "./components/profile.scss";
+@import "./components/contactUs.scss";
+body {
+//   background-color: #02030f;
+    background-color: rgb(28, 28, 31);
+}
+
+* {
+  font-family: "cour", "Monaco";
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 14px;
+}
+
+.home {
+//   background-color: #02030f;
+background-color: rgb(28, 28, 31);
+  width: 100%;
+  margin: 0 auto;
+  max-width: 375px;
+    .logo-title-wrap{
+        width:80%;
+        margin: 0 auto;    
+        margin-top: 50px;
+        .logo-title{
+            font-family: $amatic;
+            text-align: center;
+            font-size: 80px;
+            
+
+        }
+    }
+
+  .logo {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .logo-title {
+    
+      width: 100%;
+    }
+    .logo-since {
+      width: 100%;
+      font-size: 11px;
+      text-align: left;
+      display: block;
+    }
+  }
+}
+
+.description {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  &-hover {
+    transition: opacity 1s ease-out;
+    opacity: 1;
+    margin-top: 30px;
+    height: auto;
+    font-size: 14px;
+    white-space: pre-line;
+  }
+}
+
+.sign {
+  width: 100%;
+  text-align: right;
+  .sign-img {
+    width: 150px;
+  }
+}

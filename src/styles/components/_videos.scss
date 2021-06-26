@@ -1,0 +1,27 @@
+.videos {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    .videos-text-wrap {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5px;
+      font-size: 14px;
+      .videos-title {
+      }
+      .videos-position {
+      }
+    }
+    .videos-content {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .video-content-image {
+      width: 100%;
+      height: 168px;
+      background-size: 100%;
+      // background-position: center;
+      margin-bottom: 10px;
+    }
+  }
+  
